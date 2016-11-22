@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Un tableau simple</title>
+	</head>
+	<body aria-labelledby="tab-simple">
+		<h1 id="tab-simple" role="heading" aria-level="1">Tableau simple</h1>
+		<table>
+			<caption>Taille et poids des étudiants</caption>
+			<tr>
+				<th >&nbsp;</th>
+				<th>Taille</th>
+				<th>Poids</th>
+			</tr>
+			<tr>
+				<th>Marie</th>
+				<td>1,62&nbsp;m</td>
+				<td>51&nbsp;kg</td>
+			</tr>
+			<tr>
+				<th>Jean</th>
+				<td>1,85&nbsp;m</td>
+				<td>70&nbsp;kg</td>
+			</tr>
+		</table>
+	</body>
+</html>
+
+<!-- 
+ATTENTION : Dans cette version, il manque les attributs d'accessibilité pour lier les cellules de titres aux cellules de données => Passer au validateur et voir qu'on obtient une erreur WCAG : "[WCAG2 1.3.1 (A)] For data tables use markup to associate data cells and header cells"
+=> FAIRE :
+- v2 avec scope
+- v3 avec id/headers
+-->
