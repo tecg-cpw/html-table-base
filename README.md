@@ -16,20 +16,20 @@ Cet exercice crée un premier petit tableau simple de base qui présente la tail
 
 ### Version 1
 
-Créez le fichier `index1.html` avec les bonnes balises afin d'arriver au résultat suivant :
+Créez le fichier `index1.html` avec les bonnes balises afin d’arriver au résultat suivant :
 
 ![Résultat attendu](./table-de-base-rendu.png)
 
-Passez votre code au validateur (TotalValidator). Qu'obtenez-vous comme avertissement WCAG ? Pourquoi ?
+Passez votre code au validateur (TotalValidator). Qu’obtenez-vous comme avertissement WCAG ? Pourquoi ?
 
 ### Version 2
 
-Créez le fichier `index2.html` en ajoutant l'attribut `scope` sur les cellules de titre.
+Créez le fichier `index2.html` en ajoutant l’attribut `scope` sur les cellules de titre.
 
-Repassez votre code au validateur (TotalValidator) et vérifiez que vos celleules de titre et de données sont correctement liées (l'avertissement WCAG a disparu).
+Repassez votre code au validateur (TotalValidator) et vérifiez que vos cellules de titre et de données sont correctement liées (l’avertissement WCAG a disparu).
 
 ### Version 3 (alternative)
 
 Créez le fichier `index3.html` en ajoutant des attributs `id` sur les cellules de titre et des attributs `headers` sur les cellules de données.
 
-Passez votre code au validateur (TotalValidator) et vérifiez que vous n'avez ni erreur de validation, ni avertissement WCAG.
+Passez votre code au validateur (TotalValidator) et vérifiez que vous n’avez ni erreur de validation, ni avertissement WCAG.
