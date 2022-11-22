@@ -6,7 +6,7 @@
 
 **html-table-base** is an educational project, which will be used for HTML courses.
 
-**Note:** the school where the course is given, the [HEPL](http://www.provincedeliege.be/hauteecole) from Liège, Belgium, is a french-speaking school. From this point, the instruction will be in french. Sorry.
+**Note:** the school where the course is given, the [HEPL](http://www.hepl.be) from Liège, Belgium, is a french-speaking school. From this point, the instruction will be in French. Sorry.
 
 * * *
 
@@ -14,11 +14,16 @@
 
 Cet exercice crée un premier petit tableau simple de base qui présente la taille et le poids de deux étudiants.
 
+Pour naviguer entre ces trois fichiers, veuillez créer à la racine de ce projet un fichier nommé `index.html`
+
+![Résultat attendu](assets-starter/rendu-acc.png)
+
+
 ### Version 1
 
 Créez le fichier `index1.html` avec les bonnes balises afin d’arriver au résultat suivant :
 
-![Résultat attendu](./table-de-base-rendu.png)
+![Résultat attendu](assets-starter/rendu-p1.png)
 
 Passez votre code au validateur (TotalValidator). Qu’obtenez-vous comme avertissement WCAG ? Pourquoi ?
 
