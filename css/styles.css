@@ -422,7 +422,11 @@ footer nav {
 
 footer a.active {
     text-decoration: none;
-    background-color: rgba(0,0,100,.1);
+    background-color: rgba(0, 0, 100, .1);
     padding: 0 0.3rem;
     border-radius: 20%;
+}
+
+ul:has(.active) {
+    display: flex;
 }
