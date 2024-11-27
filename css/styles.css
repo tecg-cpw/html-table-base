@@ -429,4 +429,10 @@ footer a.active {
 
 ul:has(.active) {
     display: flex;
+    column-gap: 1em;
+    margin: 0;
+}
+
+ul:has(.active) li {
+    list-style: none;
 }
